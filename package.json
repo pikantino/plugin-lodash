@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/pikantino/plugin-lodash.git"
   },
+  "license": "GPL-3.0",
   "author": "targettaiga <targettaiga@gmail.com>",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/pikantino/plugin-lodash/issues"
   },
