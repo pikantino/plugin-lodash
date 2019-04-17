@@ -1,0 +1,19 @@
+{
+  "name": "@pikantino/plugin-lodash",
+  "version": "0.1.0",
+  "description": "Pikantino - lodash plugin",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikantino/plugin-lodash.git"
+  },
+  "author": "targettaiga <targettaiga@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikantino/plugin-lodash/issues"
+  },
+  "homepage": "https://github.com/pikantino/plugin-lodash#readme"
+}
