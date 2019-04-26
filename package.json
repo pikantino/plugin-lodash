@@ -1,6 +1,6 @@
 {
   "name": "@pikantino/plugin-lodash",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Pikantino - Lodash plugin",
   "main": "./lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pikantino/plugin-lodash#readme",
   "dependencies": {
-    "@pikantino/toolkit": "file:../toolkit",
+    "@pikantino/toolkit": "^0.1.0",
     "fs-extra": "^7.0.1",
     "lodash-cli": "^4.17.5"
   },
