@@ -10,7 +10,7 @@ const lodashFolderPath: string = path.join(cwd, lodashTempFolderName);
 
 function modularizeLodash(): Promise<void> {
     return new Promise((resolve, reject) => {
-        const pluginNodeModulesPath: string = path.join(__dirname, '..', '..', 'node_modules');
+        const pluginNodeModulesPath: string = path.join(cwd, 'node_modules');
         const lodashCliBinPath: string = path.join(pluginNodeModulesPath, 'lodash-cli', 'bin', 'lodash');
 
         fs.ensureDirSync(lodashFolderPath);

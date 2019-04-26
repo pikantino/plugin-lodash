@@ -1,6 +1,6 @@
 {
   "name": "@pikantino/plugin-lodash",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Pikantino - Lodash plugin",
   "main": "./lib/index.js",
   "scripts": {
