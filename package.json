@@ -1,7 +1,7 @@
 {
   "name": "@pikantino/plugin-lodash",
-  "version": "0.1.0",
-  "description": "Pikantino - lodash plugin",
+  "version": "0.2.1",
+  "description": "Pikantino - Lodash plugin",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/pikantino/plugin-lodash/issues"
   },
-  "homepage": "https://github.com/pikantino/plugin-lodash#readme"
+  "homepage": "https://github.com/pikantino/plugin-lodash#readme",
+  "dependencies": {
+    "@pikantino/toolkit": "file:../toolkit",
+    "fs-extra": "^7.0.1",
+    "lodash-cli": "^4.17.5"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5"
+  }
 }
